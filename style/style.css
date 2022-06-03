@@ -1,0 +1,523 @@
+@font-face {
+    font-family: "recolate";
+    src: url("../fonts/recolate-regular/Recoleta-RegularDEMO.otf");
+}
+
+*
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-flow: row wrap ;
+}
+ #hero {
+     background-color: #163A24;
+     color: #fff;
+ }
+
+ .partner-title {
+    font-family: "recolate";
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;    
+    color: #163A24;
+    
+ }
+
+header {
+    padding: 20px 0;
+    margin-bottom: 15px;
+} 
+ .row.header {
+     justify-content: space-between;
+     align-items: center;
+ }
+
+.navbar-list {
+    list-style: none;
+
+}
+.navbar-item {
+   margin-left: 24px; 
+}
+ .navbar-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FBFAF7;
+    text-transform: capitalize;
+ }
+
+ .btn-get .navbar-link {
+    background: #198C36;
+    border-radius: 30px;
+    padding: 15px 25px ;
+ }
+
+ .hero-content {
+     align-items: center;
+ }
+
+ .hero-des {
+     width: 492px;
+ }
+ .hero-title {
+    font-family: "recolate";
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FBFAF7;
+    width: 391px;
+    margin-bottom: 18px;
+ }
+ .hero-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    width: 475px;
+ }
+
+ #story {
+     padding: 120px 0;
+ }
+
+ .story-content {
+    align-items:center;      
+    justify-content: space-around;    
+ }
+ .story-img, .story-des {
+     flex-basis: 50%;
+ }
+.story-title {
+    font-family:"recolate";
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.partner {
+    padding-top: 113px;
+}
+.story-text {
+    font-family:"recolate";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+    width: 380px;
+    margin-bottom: 66px;    
+}
+
+.partner-list {
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;    
+    padding: 0;
+} 
+
+#consumers {
+    margin-top: 60px;
+    background-color: #163A24;
+    color: white;
+}
+
+.costumer-title {
+    font-family: "recolate";
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #FBFAF7;    
+    padding-top: 66px;
+}
+.costumers-text {
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FBFAF7;
+}
+
+.costumers-list {
+    list-style: none;
+    justify-content: space-between;
+    padding-bottom: 66px;
+    margin-bottom: 0;
+}
+
+.costumers-img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+
+#employee {
+    margin: 0 auto;
+    background-color:#F2EFE6;
+    padding-top: 114px;
+    padding-bottom: 135px;
+}
+.employee-title {
+    text-align: center;
+    font-family: "recolate";
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;    
+    color: #163A24;
+    margin-bottom: 28px;  
+}
+
+.employee-text {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #163A24;
+    width: 760px;
+    margin: 2px auto;
+}
+
+#service {
+    padding-top: 180px;
+    padding-bottom: 120px;
+}
+.fit-together {
+    align-items: center;
+    justify-content: space-around;    
+}
+.fitting {
+    width: 385px;
+}
+.fitting-title{
+    font-family: "recolate";
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+    margin-bottom: 25px;
+}
+.fitting-text {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+    width: 379px;
+}
+
+.interest-title {
+    font-family: "recolate";
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #163A24;
+    padding-top: 115px;
+}
+.interest-text {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;    
+    color: #163A24;
+    margin-bottom: 15px;    
+ }
+ .about-clersky {
+     align-items: center;
+     justify-content: space-around;
+ }
+ .about-title {
+    font-family: "recolate";
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    color: #163A24;
+ }
+ .about-item {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #163A24;
+ }
+ .security-box {
+    width: 353px ;
+    height: 393px;
+    background: #FBFAF7;
+    box-shadow: 5px 5px 20px #E9E4D5;
+    border-radius: 15px;
+    padding-left: 40px;
+    padding-top: 55px;
+ }
+ .star-box {
+    width: 353px;
+    height: 430px;
+    background: #FBFAF7;
+    box-shadow: 5px 5px 20px #E9E4D5;
+    border-radius: 15px;
+    padding-left: 40px;
+    padding-top: 55px;
+    margin-top: 28px;
+ }
+
+ #time-using  {
+     background-color: #F2EFE6;
+     padding-top: 115px;
+     padding-bottom: 125px;
+ }
+ .using-title {
+    font-family: "recolate";
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 54px;
+    text-align: center;    
+    color: #163A24;
+ }
+ .using-text {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;    
+    color: #163A24;
+ }
+ .earning {
+     align-items: center;
+     justify-content: space-around;
+ }
+ .results-text {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;    
+    color: #163A24;
+ }
+ .time-money {
+    font-family: "recolate";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;    
+    color: #163A24;
+ }
+ .call-btn{
+     display: flex;
+     align-items: center;
+ }
+ .book-btn {
+    background: #198C36;
+    border-radius: 160px;
+    border: none;
+    width: 244px;
+    height: 52px;
+    margin: 0 auto;    
+}
+.btn-text {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FBFAF7;
+}
+
+.book {
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 130px;
+    padding-bottom: 135px;
+}
+
+.book-title {
+    font-family:"recolate";
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+}
+.book-text {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+
+.discovery {
+    background: #163A24;
+    padding-top: 114px;
+    padding-bottom: 124px;
+}
+.discovery-title {
+    font-family:"recolate";
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #FBFAF7;
+}
+.discovery-text {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FBFAF7;
+}
+.discovery-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.free-btn {    
+    background: #FAB5A0;
+    border-radius: 160px;
+    width: 258px;
+    height: 52px;
+    border: none;
+}
+.free-text{
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #163A24;
+}
+
+.contacting-sign {
+    background-color:#F2EFE6;
+}
+.sign {
+    padding: 55px 0;    
+    align-items: baseline;
+    justify-content: space-between;
+}
+.signing-title {
+    font-family:"recolate";
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+}
+.signing-text {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+.email-design {
+    background: #FFFFFF;
+    border: 1px solid #F2EFE6;
+    border-radius: 255px;
+    width: 554px;
+    height: 54px;
+}
+.input-btn {
+    background: #15762E;
+    border-radius: 160px;   
+    text-align: center;
+    border: none;
+    width: 111px;
+    height: 54px;
+    color: #fff;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.email-text {
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #163A24;
+    width: 525px;
+}
+.policy-link {
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #198C36;
+}
+
+.bottom{
+    padding: 33px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-title{
+    font-family: "recolate";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #163A24;
+}
+.messenger-item{
+    list-style: none;
+    padding: 0;
+}
+.messenger-logo{
+    padding: 0 15px;
+}
+
+.the-bottom{
+    align-items: center;
+    justify-content: space-between;
+}
+.c-regiter{
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #163A24;
+}
+.useful-items{
+    list-style: none;
+    
+}
+.link-text {    
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #198C36;
+    padding-right: 15px;
+}
